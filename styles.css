@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: black;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  header {
+    background: grey;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    color: black;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  #fotoperfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Para que la imagen sea redonda (opcional) */
+ }
+ 
+
+#contact {
+    background-color: blue;
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 100%;
+}
+
+#experience {
+    background-color: gold;
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 0%;
+}
+
+#education {
+    background-color: green;
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 0%;
+}
+  
+
+#skills {
+    background-color: red;
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 50%;
+}
+  
+  button:hover {
+    background: black;
+  }
+  
