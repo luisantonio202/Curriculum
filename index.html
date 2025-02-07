@@ -1,94 +1,66 @@
-body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color:black;
-    line-height: 1.6;
-    text-align: center;
-  }
-  
-  header {
-    background:gray;
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 2%;
-    color: #fff;
-    padding: 10px 10px;
-    text-align: center;
-  }
-  
-  h1, h2, h3 {
-    color: black;
-    margin: 0;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="name">Welcome to my Curriculum Vitae💼</h1>
+    <p id="profession">TSU Mechatronic</p>
+    <p>Luis Antonio Diaz Chavez</p>
+  </header>
 
-#fotoperfil img {
-    margin: auto;
-    width: 210px;
-    height: 210px;
-    border-radius: 50%; 
- }
+  <main>
+    <section id="fotoperfil">
+      <img src="fotoperfil.jpeg" alt="Foto de Perfil">
+      
+    </section>
  
+    <section id="contact">
+      <h2>Contact📞</h2>
+      <div>
+        <p>Email: <a id="contactos" href="mailto:luisantoniodiazchavez14@gmail.com">luisantoniodiazchavez14@gmail.com</a></p>
+        <p>Phone Number: <a id="contactos" href="tel:+526142760484">+52-614-276-04-84</a></p>
+        <p>LinkedIn: <a id="contactos" href="https://www.linkedin.com/in/luis-antonio-diaz-chavez-138020238/">Tu Perfil</a></p>
+      </div>
+    </section>    
 
-#contact {
-    background-color: blue;
-    border-color: black;
-    border-style: double;
-    border-width: 15px;
-    border-radius: 100%;
-}
+    <section id="experience">
+      <h2>Experience🛠️</h2>
+      <div class="job">
+        <h3>Company: Jabil</h3>
+        <p>Position: Ensamble Mecanico</p>
+        <p>Period: 2019 - 2021</p>
+        
+      </div>
+    </section>
 
-#contactos{
-  color: white;
-}
+    <section id="education">
+      <h2>Education📚</h2>
+      <div class="education-item">
+        <h3>Universidad Tecnológica de Chihuahua</h3>
+        <p>Mechatronics Engineering💡📡</p>
+        <p>Period: 2021 - 2025</p>
+      </div>
+    </section>
 
-#experience {
-    background-color: chocolate;
-    border-color: black;
-    border-style: double;
-    border-width: 15px;
-    border-radius: 0%;
-}
+    <section id="skills">
+      <h2>Skills🏆</h2>
+      <div id="skills-list">
+        <p>Digital Electronics💻</p>
+        <p>Programming in HTML,CSS,JavaScript</p>
+        <p>Play the guitar🎸</p>
+      </div>
+    </section>
+  </main>
 
-#education {
-    background-color: green;
-    border-color: black;
-    border-style: double;
-    border-width: 15px;
-    border-radius: 0%;
-}
-  
+  <footer>
+    <button id="theme-toggle">Cambiar Tema</button>
+  </footer>
 
-#skills {
-    background-color: red;
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 50%;
-}
-
-button {
-  display: block;
-  margin: 10px auto;
-  padding: 10px 20px;
-  border: none;
-  background: #333;
-  color: #fff;
-  cursor: pointer;
-}
-  
-button:hover {
-    background: blue;
-}
-  
+  <script src="script.js"></script>
+</body>
+</html>
