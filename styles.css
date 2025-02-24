@@ -17,6 +17,7 @@ body {
     color: #fff;
     padding: 10px 10px;
     text-align: center;
+    text-shadow: 3px 5px 5px blue;
   }
   
   h1, h2, h3 {
