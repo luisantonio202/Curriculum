@@ -65,7 +65,7 @@ body {
 #education {
     background-color: green;
     border-color: black;
-    border-style: solid;
+    border-style: double;
     border-width: 15px;
     border-radius: 0%;
 }
@@ -74,7 +74,7 @@ body {
 #skills {
     background-color:blue;
     border-color: black;
-    border-style: solid;
+    border-style: double;
     border-width: 10px;
 }
 
