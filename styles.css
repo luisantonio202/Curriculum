@@ -31,14 +31,7 @@ body {
   
   section {
     margin-bottom: 20px;
-  }
-  
-.contact-container {
-    display: flex;
-    align-items: center; /* Alinea verticalmente */
-    gap: 20px; /* Espacio entre la foto y el contacto */
-    justify-content: center; /* Centrar los elementos horizontalmente */
-  }
+  } 
   
 #fotoperfil img {
     margin: auto;
